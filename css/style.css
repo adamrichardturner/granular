@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+body {
+  font-family: 'Lato', sans-serif;
+  /* Font size to 14px */
+  font-size: 14px;
+  /* Line height to 1.6 */
+  line-height: 1.6;
+  /* Text color to grey */
+  color: #333333;
+  /* Align things centrally */
+  text-align: center;
+}
+
+.scroll-effect {
+  /* Set the height of the element to 100% of vh */
+  height: 100vh;
+  /* Stop the background from repeating */
+  background-repeat: no-repeat;
+  /* Stretch the background to cover the element */
+  background-size: cover;
+  /* Show the center bottom part of the image */
+  background-position: center;
+  /* Scroll content over background */
+  background-attachment: fixed;
+  /* We want to position H3s at the bottom of our sections.
+  So we apply position relative to make the position absolute style work. */
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+nav a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #eed821;
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background-image: url('../images/header.jpg');
+}
+
+nav {
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  /* To put things in the middle of a section / element */
+  /* transform: translate(-50%, -50%); */
+  top: 100px;
+  right: 100px;
+}
+
+/* Announcement Section */
+.highlight {
+  background-color: #e3e8ea;
+  padding: 50px 0;
+}
+
+h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+/* Feature */
+.feature {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+p {
+  margin-bottom: 60px;
+}
+
+/* Filters */
+#filter1 {
+  background-image: url(../images/one.jpg);
+}
+
+#filter2 {
+  background-image: url(../images/two.jpg);
+}
+
+#filter3 {
+  background-image: url(../images/three.jpg);
+}
+
+#filter4 {
+  background-image: url(../images/four.jpg);
+}
+
+#filter5 {
+  background-image: url(../images/five.jpg);
+}
+
+h3 {
+  color: white;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: 300;
+  width: 100%;
+  bottom: 40px;
+  top: 0px;
+}
+
+/* Subscribe */
+.subscribe, footer {
+  background-color: #eed821;
+  padding: 50px 0;
+}
+
+.email {
+  width: 60%;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 8px;
+  transition: border 0.3s;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.email:focus {
+  border: 2px solid #333333;
+}
+
+.button {
+  width: 60%;
+  background-color: transparent;
+  border: 2px solid #333333;
+  border-radius: 5px;
+  padding: 8px 0;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  border-color: white;
+  color: white;
+}
+
+/* Footer */
+footer {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+small {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+  padding: 0 10px;
+}
