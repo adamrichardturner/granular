@@ -72,10 +72,10 @@ nav {
   padding: 50px 0;
 }
 
-h2 {
+h2, h4 {
   font-size: 26px;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 700;
   margin-bottom: 40px;
 }
 
@@ -142,7 +142,7 @@ h3 {
   border: 2px solid #333333;
 }
 
-.button {
+.button, button {
   width: 60%;
   background-color: transparent;
   border: 2px solid #333333;
@@ -171,6 +171,81 @@ footer a {
   text-decoration: none;
   color: grey;
   padding: 0 10px;
+}
+
+/* About section */
+.about {
+  background-image: url(../images/three.jpg);
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  height: 200px;
+  margin: 0 0 20px 20px;
+}
+
+/* Pricing */
+.pricing {
+  background-image: url(../images/header.jpg);
+  height: auto;
+  padding: 50px 0;
+  color: white;
+}
+
+/* Pricing Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card {
+  background: #f2f2f2;
+  border-radius: 5px;
+  margin: 12px;
+  padding-bottom: 50px;
+  /* This property sets the width of our flexbox */
+  flex-basis: 250px;
+}
+
+h4 {
+  background: #808080;
+  height: 80px;
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  color: #333333;
+  margin-bottom: 25px;
+}
+
+li {
+  height: 20px;
+  margin: 10px auto;
+}
+
+.card-big {
+  transform: scaleX(1.12);
+}
+
+.card-big button {
+  background: #EEDE00;
+}
+
+button:hover {
+  background: #333333;
+  color: white;
 }
 
 /* Mobile Styles */
